@@ -1,7 +1,7 @@
 import {NextResponse} from "next/server";
 import {AgentQLAPI} from "../AgentQLAPI";
 
-export const maxDuration = 180;
+export const maxDuration = 60;
 
 export async function GET() {
   const apiKey = process.env.AGENTQL_API_KEY;
