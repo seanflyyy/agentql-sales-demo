@@ -21,7 +21,7 @@ export class AgentQLAPI {
     const params: QueryDataParams = {
       wait_for: 5,
       is_scroll_to_bottom_enabled: true,
-      mode: "standard",
+      mode: "fast",
       is_screenshot_enabled: false,
     };
 
